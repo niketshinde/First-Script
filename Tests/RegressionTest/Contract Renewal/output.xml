@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20181210 12:30:07.760">
+<suite id="s1" name="4101.02 TSU SM B2C SE Contract Renewal" source="C:\Users\shindnik\MyProject\PycharmProjects\First-Script\Tests\RegressionTest\Contract Renewal\4101.02_TSU SM B2C SE_Contract Renewal.robot">
+<test id="s1-t1" name="TC_4101.02">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"in TC_4101.02"</arg>
+</arguments>
+<msg timestamp="20181210 12:30:08.833" level="INFO">"in TC_4101.02"</msg>
+<status status="PASS" starttime="20181210 12:30:08.833" endtime="20181210 12:30:08.834"></status>
+</kw>
+<doc>Login to FreeCRM</doc>
+<tags>
+<tag>Contract Renewal Sanity</tag>
+</tags>
+<status status="PASS" starttime="20181210 12:30:08.833" endtime="20181210 12:30:08.834" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test case 1">
+<kw name="Do Something">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am doing something...</arg>
+</arguments>
+<msg timestamp="20181210 12:30:08.837" level="INFO">I am doing something...</msg>
+<status status="PASS" starttime="20181210 12:30:08.837" endtime="20181210 12:30:08.837"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.837" endtime="20181210 12:30:08.837"></status>
+</kw>
+<kw name="Do Something Else">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am doing something else...</arg>
+</arguments>
+<msg timestamp="20181210 12:30:08.838" level="INFO">I am doing something else...</msg>
+<status status="PASS" starttime="20181210 12:30:08.838" endtime="20181210 12:30:08.838"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.838" endtime="20181210 12:30:08.838"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.836" endtime="20181210 12:30:08.839" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Test case 2">
+<kw name="Do Another Thing">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am doing another thing...</arg>
+</arguments>
+<msg timestamp="20181210 12:30:08.841" level="INFO">I am doing another thing...</msg>
+<status status="PASS" starttime="20181210 12:30:08.841" endtime="20181210 12:30:08.841"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.840" endtime="20181210 12:30:08.841"></status>
+</kw>
+<kw name="Do Something Else">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am doing something else...</arg>
+</arguments>
+<msg timestamp="20181210 12:30:08.842" level="INFO">I am doing something else...</msg>
+<status status="PASS" starttime="20181210 12:30:08.842" endtime="20181210 12:30:08.842"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.842" endtime="20181210 12:30:08.843"></status>
+</kw>
+<status status="PASS" starttime="20181210 12:30:08.840" endtime="20181210 12:30:08.843" critical="yes"></status>
+</test>
+<doc>this is besic info about suite</doc>
+<status status="PASS" starttime="20181210 12:30:07.764" endtime="20181210 12:30:08.845"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Contract Renewal Sanity</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="4101.02 TSU SM B2C SE Contract Renewal">4101.02 TSU SM B2C SE Contract Renewal</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
